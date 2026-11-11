@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fale com o fã que fez o blog LOUD em Foco.">
+  <title>LOUD em Foco | Contatos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="topo-interno">
+      <a class="marca" href="index.html">
+        <img src="images/logo.png" alt="Logo da LOUD">
+        <span>LOUD em Foco<small>blog de um fã de e-sports</small></span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="trajetoria.html">Trajetória</a></li>
+          <li><a href="elencos.html">Elencos</a></li>
+          <li><a href="titulos.html">Títulos</a></li>
+          <li><a href="contatos.html" aria-current="page">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <span class="etiqueta">Fale comigo</span>
+    <h1>Contatos</h1>
+    <p class="chamada">
+      Achou alguma informação desatualizada, quer sugerir um assunto ou só quer falar de LOUD?
+      Escreva para mim.
+    </p>
+
+    <div class="contato-grid">
+      <section aria-labelledby="titulo-form">
+        <h2 id="titulo-form" style="margin-top:0">Envie uma mensagem</h2>
+        <form action="mailto:srzitos21@gmail.com" method="post" enctype="text/plain">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required autocomplete="name">
+
+          <label for="email">Seu e-mail</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+
+          <label for="assunto">Assunto</label>
+          <select id="assunto" name="assunto">
+            <option>Correção de informação</option>
+            <option>Sugestão de conteúdo</option>
+            <option>Só quero conversar sobre a LOUD</option>
+          </select>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+
+          <button class="enviar" type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <section aria-labelledby="titulo-grupo">
+        <h2 id="titulo-grupo" style="margin-top:0">Quem fez o blog</h2>
+        <p>Trabalho feito por um fã da LOUD.</p>
+        <ul class="integrantes">
+          <li><strong>Marcos Antonio Rui Filho</strong>(Criador)</li>
+
+        </ul>
+
+        <div class="aviso">
+          <p>
+            Este blog não tem ligação oficial com a LOUD. Para falar com a organização, use os
+            canais oficiais dela.
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape-interno">
+      <div>
+        <p><strong>LOUD em Foco</strong> · trabalho acadêmico de um fã, sem vínculo oficial com a LOUD.</p>
+        <p>Marcas, logos e imagens pertencem aos seus respectivos donos (LOUD, Riot Games, Garena e Supercell) e são usadas aqui apenas para fins educacionais.</p>
+        <p>© 2026 · Informações conferidas em 10/11/2026.</p>
+      </div>
+      <div>
+        <h2>Navegação</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="trajetoria.html">Trajetória</a></li>
+          <li><a href="elencos.html">Elencos</a></li>
+          <li><a href="titulos.html">Títulos</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
